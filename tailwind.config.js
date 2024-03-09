@@ -52,8 +52,8 @@ module.exports = {
       },
       padding:{
         'image-dis': '8svh',
-        'page-left': '10svh',
-        'page-right': '10svh',
+        'page-left': '5svw',
+        'page-right': '5svw',
         'img-width': '10svw',
         'pad-top': '5svh',
         'pad-sizer': '13svh',
