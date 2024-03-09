@@ -5,11 +5,11 @@ import Link from "next/link";
 
 const ContactPage = () => {
   return (
-    <div id="contact" className='w-full h-[110svh] scroll-smooth bg-home-white'>
-        <div className="h-div-sizer-min font-popins text-5xl text-ultra-violet tracking-wide font-light flex items-center justify-center">Connect with Us</div>
-        <div className="grid grid-cols-3 gap-2">
+    <div id="contact" className='w-full sm:h-[110svh] scroll-smooth bg-home-white overflow-hidden'>
+        <div className="h-div-sizer-min font-popins text-3xl sm:text-5xl text-ultra-violet tracking-wide font-light flex items-center justify-center">Connect with Us</div>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
             <div>
-            <div className="h-div-sizer-max pl-page-left">
+            <div className="h-[20svh] sm:h-div-sizer-max pl-10 pr-10 sm:p-0 sm:pl-page-left">
                 <div className="relative h-full w-full overflow-hidden flex justify-center items-center">
                     <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='/assets/images/con1.jpg' alt='' />
                     <div className="absolute text-center bg-black bg-opacity-50 p-6 rounded-lg">
@@ -23,8 +23,8 @@ const ContactPage = () => {
                 </div>
             </div>
             </div>
-            <div className="p-pad-top pt-0 pb-0">
-            <div className="h-div-sizer">
+            <div className="pr-10 pl-10 sm:p-pad-top pt-4 sm:pt-0 sm:pb-0">
+            <div className="h-[20svh] sm:h-div-sizer">
                 <div className='relative h-full w-full overflow-hidden flex justify-center items-center'>
                     <img className='absolute inset-0 w-full h-full object-cover object-bottom hover:scale-125 transition duration-500' src='/assets/images/con3.png' alt='' />
                     <div className="absolute text-center bg-black bg-opacity-50 p-6 rounded-lg">
@@ -39,7 +39,7 @@ const ContactPage = () => {
             </div>
             </div>    
             <div>
-            <div className="h-div-sizer-max pr-page-right">
+            <div className="h-[20svh] sm:h-div-sizer-max pl-10 pr-10 pt-4 sm:p-0 sm:pr-page-right">
                 <div className='relative h-full w-full overflow-hidden flex justify-center items-center'>
                     <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='/assets/images/con4.png' alt='' />
                     <div className="absolute text-center bg-black bg-opacity-50 p-6 rounded-lg">
@@ -58,18 +58,18 @@ const ContactPage = () => {
             </div>
             </div>    
         </div>
-        <div className="grid grid-cols-3 justify-center items-center h-[33.5svh] mt-5">
+        <div className="grid grid-cols-3 justify-center items-center h-[33.5svh] mt-5 pr-[2px] pl-[2px] sm:p-0 gap-4 sm:gap-0">
         <div className="text-grey font-bold text-right">
-                <p className=" text-5xl font-abeezee">30<span className="text-xl font-abeezee">plus</span></p>
-                <p className="text-sm font-abeezee">trusted partners</p>
+                <p className="text-xl sm:text-5xl font-abeezee">30<span className="text-xs sm:text-xl font-abeezee">plus</span></p>
+                <p className="text-xs sm:text-sm font-abeezee">trusted partners</p>
             </div>
             <div className="text-phone-color font-abeezee font-bold text-center">
-                <p className=" text-5xl font-abeezee">100+</p>
-                <p className="text-sm font-abeezee">satisfied customers</p>
+                <p className=" text-xl sm:text-5xl font-abeezee">100+</p>
+                <p className="text-xs sm:text-sm font-abeezee">satisfied customers</p>
             </div>
             <div className="text-grey font-abeezee font-bold">
-                <p className=" text-5xl font-abeezee">20<span className="text-xl font-abeezee">plus</span></p>
-                <p className="text-sm font-abeezee">years of experience</p>
+                <p className="text-xl sm:text-5xl font-abeezee">20<span className="text-xs sm:text-xl font-abeezee">plus</span></p>
+                <p className="text-xs sm:text-sm font-abeezee">years of experience</p>
             </div>
         </div>
     </div>
