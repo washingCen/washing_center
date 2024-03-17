@@ -4,7 +4,7 @@ const ServicePage = () => {
 
   return (
     <div id="service" className="lg:h-service-page bg-home-white scroll-smooth text-center">
-      <div className="h-div-sizer-min font-popins text-3xl sm:text-5xl text-ultra-violet tracking-wide font-light flex justify-center items-center">Our Services</div>
+      <div className="h-[15svh] sm:h-div-sizer-min font-popins text-3xl sm:text-5xl text-ultra-violet tracking-wide font-light flex justify-center items-center">Our Services</div>
       <div className='w-full grid lg:grid-cols-3 sm:grid-cols-2 lg:gap-2 sm:gap-8 scroll-smooth grid-cols-1 sm:pr-[5vw] sm:pl-[5vw] lg:pr-0 lg:pl-0'>
         <div>
           <div className="h-div-sizer-max lg:pl-page-left pr-5 pl-5 sm:pr-0 sm:pl-0">
@@ -12,7 +12,7 @@ const ServicePage = () => {
               <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/SXbYRMN/about.webp' alt='' />
             </div>
           </div>
-          <div className="h-text-sizer">
+          <div className="h-[8svh] sm:h-text-sizer">
             <p className="pl-page-left text-ultra-violet pt-2 text-xl font-popins tracking-wider font-medium">Deep Washing</p>
           </div>
         </div>
@@ -22,7 +22,7 @@ const ServicePage = () => {
               <img className='absolute inset-0 w-full h-full object-cover object-bottom hover:scale-125 transition duration-500' src='https://i.ibb.co/2YcXR8N/cut1.webp' alt='' />
             </div>
           </div>
-          <div className="h-text-sizer">
+          <div className="h-[8svh] sm:h-text-sizer">
             <p className="text-ultra-violet pt-2 text-xl font-popins tracking-wider font-medium">Clean Cutting</p>
           </div>
         </div>    
@@ -32,7 +32,7 @@ const ServicePage = () => {
               <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/Z1PBBYD/repair.webp' alt='' />
             </div>
           </div>
-          <div className="h-text-sizer">
+          <div className="h-[8svh] sm:h-text-sizer">
             <p className="pr-page-left text-ultra-violet pt-2 text-xl font-popins tracking-wider font-medium">Quality Repairing</p>
           </div>
         </div>  
@@ -42,7 +42,7 @@ const ServicePage = () => {
               <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/tQMhtTB/bind1.webp' alt='' />
             </div>
           </div>
-          <div className="h-text-sizer">
+          <div className="h-[8svh] sm:h-text-sizer">
             <p className="pl-page-left text-ultra-violet pt-2 text-xl font-popins tracking-wider font-medium">Seamless Banding</p>
           </div>
         </div>
@@ -52,7 +52,7 @@ const ServicePage = () => {
               <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/jhW8Gzk/paint2.webp' alt='' />
             </div>
           </div>
-          <div className="h-text-sizer">
+          <div className="h-[8svh] sm:h-text-sizer">
             <p className="text-ultra-violet pt-2 text-xl font-popins tracking-wider font-medium">A-one Painting</p>
           </div>
         </div>
@@ -62,7 +62,7 @@ const ServicePage = () => {
               <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/grNx7Yw/stretch1.webp' alt='' />
             </div>
           </div>
-          <div className="h-text-sizer">
+          <div className="h-[10svh] sm:h-text-sizer">
             <p className="pr-page-left text-ultra-violet pt-2 text-xl font-popins tracking-wider font-medium">Standard Stretching</p>
           </div>
         </div>  

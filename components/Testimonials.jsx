@@ -73,7 +73,7 @@ const Testimonials = () => {
   }
 
   return (
-    <div id="review" className='w-full h-page-full bg-home-white flex justify-center items-center overflow-hidden'>
+    <div id="review" className='w-full h-[70svh] sm:h-page-full bg-home-white flex justify-center items-center overflow-hidden'>
       <div>
         <div className="font-popins text-xl sm:text-5xl text-ultra-violet tracking-wide font-light flex justify-center items-center">What our clients say</div>
         <div className='flex justify-center pt-8'>

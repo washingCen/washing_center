@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const QuickLink = () => {
   return (
-    <div className='w-full pl-page-left sm:h-link-size h-[105svh] scroll-smooth bg-linker overflow-hidden'>
+    <div className='w-full pl-page-left sm:h-link-size scroll-smooth bg-linker overflow-hidden'>
         <div className='font-popins text-grey font-medium pt-6'>
             <Image 
                 src="/assets/images/logo.jpg"
