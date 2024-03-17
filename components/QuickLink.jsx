@@ -16,7 +16,7 @@ const QuickLink = () => {
                 width={70}
                 className="rounded mb-4"
             />
-            <p className='text-sm sm:text-base'>Giving You What You Need</p>
+            <p className='text-sm sm:text-base'>Giving You What You Need!</p>
         </div>
         <div className='grid grid-cols-2 sm:grid-cols-4 text-home-white font-extralight text-[10px] sm:text-xs tracking-wider pt-8'>
             <div>
