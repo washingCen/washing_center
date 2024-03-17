@@ -10,19 +10,19 @@ const Testimonials = () => {
     'client': 'Luke Nightangle',
     'position': 'General Manager',
     'review': 'My experience on this company was delightful. The quality that you can get over in this company can rarely be found in any other companies.',
-    'image': 'man2.png'
+    'image': 'https://i.ibb.co/0Y8jsLF/man2.webp'
     },
     {
       'client': 'Alice Wonderland',
       'position': 'Chief Consultant',
       'review': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,',
-      'image': 'woman2.png'
+      'image': 'https://i.ibb.co/G0NMkpW/woman2.webp'
     },
     {
       'client': 'Barbara Dorothy',
       'position': 'Sales Manager',
       'review': 'Wow! Can you even get anything better than here? Truly magnificient service. Fully recommended to anyone out there. The quality and the smothness speaks it all.',
-      'image': 'testimonial.jpg'
+      'image': 'https://i.ibb.co/tMQkrD4/testimonial.webp'
     }
   ]
 
@@ -72,8 +72,6 @@ const Testimonials = () => {
     }
   }
 
-  const source = '/assets/images/' + testimonialData.image;
-
   return (
     <div id="review" className='w-full h-page-full bg-home-white flex justify-center items-center overflow-hidden'>
       <div>
@@ -83,7 +81,7 @@ const Testimonials = () => {
             <MdNavigateBefore onClick={handleBeforeDataChange} className="rounded-full hover:bg-phone-color hover:text-home-white cursor-pointer"/>
           </div>
           <div className="relative bg-top bg-cover h-[22svh] w-[22svh] sm:h-circle-size sm:w-circle-width shrink-0 grow-0 rounded-full bg-white">
-            <img className='absolute inset-0 w-full h-full object-cover rounded-full object-top' src={source} alt='' />
+            <img className='absolute inset-0 w-full h-full object-cover rounded-full object-top' src={testimonialData.image} alt='' />
           </div>
           <div className="flex justify-center items-center text-2xl sm:text-4xl ml-5 lg:ml-20">
             <MdNavigateNext onClick={handleNextDataChange} className="rounded-full hover:bg-phone-color hover:text-home-white cursor-pointer"/>

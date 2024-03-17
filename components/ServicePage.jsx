@@ -9,7 +9,7 @@ const ServicePage = () => {
         <div>
           <div className="h-div-sizer-max lg:pl-page-left pr-5 pl-5 sm:pr-0 sm:pl-0">
             <div className='relative h-full w-full overflow-hidden'>
-              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='/assets/images/about.jpg' alt='' />
+              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/SXbYRMN/about.webp' alt='' />
             </div>
           </div>
           <div className="h-text-sizer">
@@ -19,7 +19,7 @@ const ServicePage = () => {
         <div className="lg:p-pad-top lg:pt-0 lg:pb-0">
           <div className="lg:h-div-sizer h-div-sizer-max pr-5 pl-5 sm:pr-0 sm:pl-0">
             <div className='relative h-full w-full overflow-hidden'>
-              <img className='absolute inset-0 w-full h-full object-cover object-bottom hover:scale-125 transition duration-500' src='/assets/images/cut1.png' alt='' />
+              <img className='absolute inset-0 w-full h-full object-cover object-bottom hover:scale-125 transition duration-500' src='https://i.ibb.co/2YcXR8N/cut1.webp' alt='' />
             </div>
           </div>
           <div className="h-text-sizer">
@@ -29,7 +29,7 @@ const ServicePage = () => {
         <div>
           <div className="h-div-sizer-max lg:pr-page-right pr-5 pl-5 sm:pr-0 sm:pl-0">
             <div className='relative h-full w-full overflow-hidden'>
-              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='/assets/images/repair.png' alt='' />
+              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/Z1PBBYD/repair.webp' alt='' />
             </div>
           </div>
           <div className="h-text-sizer">
@@ -39,7 +39,7 @@ const ServicePage = () => {
         <div>
           <div className="h-div-sizer-max lg:pl-page-left pr-5 pl-5 sm:pr-0 sm:pl-0">
             <div className='relative h-full w-full overflow-hidden'>
-              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='/assets/images/bind1.png' alt='' />
+              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/tQMhtTB/bind1.webp' alt='' />
             </div>
           </div>
           <div className="h-text-sizer">
@@ -49,7 +49,7 @@ const ServicePage = () => {
         <div className="lg:p-pad-top lg:pt-0 lg:pb-0">
           <div className="lg:h-div-sizer h-div-sizer-max pr-5 pl-5 sm:pr-0 sm:pl-0">
             <div className='relative h-full w-full overflow-hidden'>
-              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='/assets/images/paint2.png' alt='' />
+              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/jhW8Gzk/paint2.webp' alt='' />
             </div>
           </div>
           <div className="h-text-sizer">
@@ -59,7 +59,7 @@ const ServicePage = () => {
         <div>
           <div className="h-div-sizer-max lg:pr-page-right pr-5 pl-5 sm:pr-0 sm:pl-0">
             <div className='relative h-full w-full overflow-hidden'>
-              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='/assets/images/stretch1.png' alt='' />
+              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/grNx7Yw/stretch1.webp' alt='' />
             </div>
           </div>
           <div className="h-text-sizer">

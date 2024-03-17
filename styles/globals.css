@@ -21,7 +21,7 @@
 }
 
 .home-img{
-    background-image: url(/assets/images/rehome.jpg);
+    background-image: url(https://i.ibb.co/Xxkf02M/rehome.webp);
     @apply shadow-[inset_22svw_24px_39px_7px_rgba(0,0,0,0.5)];
 }
 

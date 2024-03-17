@@ -11,7 +11,7 @@ const ContactPage = () => {
             <div>
             <div className="h-[20svh] sm:h-div-sizer-max pl-10 pr-10 sm:p-0 sm:pl-page-left">
                 <div className="relative h-full w-full overflow-hidden flex justify-center items-center">
-                    <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='/assets/images/con1.jpg' alt='' />
+                    <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/pjmCSGw/con1.webp' alt='' />
                     <div className="absolute text-center bg-black bg-opacity-50 p-6 rounded-lg">
                         <div className="inline-block"><FaFacebookMessenger className="text-3xl text-button-blue"/></div>
                         <div>
@@ -26,7 +26,7 @@ const ContactPage = () => {
             <div className="pr-10 pl-10 sm:p-pad-top pt-4 sm:pt-0 sm:pb-0">
             <div className="h-[20svh] sm:h-div-sizer">
                 <div className='relative h-full w-full overflow-hidden flex justify-center items-center'>
-                    <img className='absolute inset-0 w-full h-full object-cover object-bottom hover:scale-125 transition duration-500' src='/assets/images/con3.png' alt='' />
+                    <img className='absolute inset-0 w-full h-full object-cover object-bottom hover:scale-125 transition duration-500' src='https://i.ibb.co/T2nbGtG/con3.webp' alt='' />
                     <div className="absolute text-center bg-black bg-opacity-50 p-6 rounded-lg">
                         <div className="inline-block"><FaPhoneAlt className="text-3xl text-phone-color"/></div>
                         <div>
@@ -41,7 +41,7 @@ const ContactPage = () => {
             <div>
             <div className="h-[20svh] sm:h-div-sizer-max pl-10 pr-10 pt-4 sm:p-0 sm:pr-page-right">
                 <div className='relative h-full w-full overflow-hidden flex justify-center items-center'>
-                    <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='/assets/images/con4.png' alt='' />
+                    <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/H7PhFd2/con4.webp' alt='' />
                     <div className="absolute text-center bg-black bg-opacity-50 p-6 rounded-lg">
                         <div className="inline-block">
                             <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=washingcentre70@gmail.com" target="_blank">
