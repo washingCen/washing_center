@@ -3,11 +3,11 @@ import Link from 'next/link'
 
 const AboutPage = () => {
   return (
-    <div id="about" className='w-full h-page-full scroll-smooth bg-home-white sm:p-page-left sm:pt-pad-sizer sm:pb-pad-sizer'>
+    <div id="about" className='w-full sm:h-page-full scroll-smooth  sm:p-page-left sm:pt-pad-sizer sm:pb-pad-sizer'>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:gap-x-10 bg-gradient-to-b from-about-white-blue to-about-blue rounded-sm'>
         <div className='p-page-left pt-10 pb-0 sm:p-0'>
           <div className='relative h-[30svh] sm:h-height-sizer w-full overflow-hidden'>
-            <img className='absolute inset-0 w-full h-full object-cover' src='/assets/images/about.jpg' alt='' />
+            <img className='absolute inset-0 w-full h-full object-cover' src='https://i.ibb.co/SXbYRMN/about.webp' alt='' />
           </div>
         </div>
         <div className='text-justify pt-4 sm:pt-about-pad pl-page-left pr-page-right sm:pr-0'>
