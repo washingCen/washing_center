@@ -10,19 +10,19 @@ const Testimonials = () => {
     'client': 'Luke Nightangle',
     'position': 'General Manager',
     'review': 'My experience on this company was delightful. The quality that you can get over in this company can rarely be found in any other companies.',
-    'image': 'https://i.ibb.co/0Y8jsLF/man2.webp'
+    'image': '/assets/images/man2.webp'
     },
     {
       'client': 'Alice Wonderland',
       'position': 'Chief Consultant',
       'review': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,',
-      'image': 'https://i.ibb.co/G0NMkpW/woman2.webp'
+      'image': '/assets/images/woman2.webp'
     },
     {
       'client': 'Barbara Dorothy',
       'position': 'Sales Manager',
       'review': 'Wow! Can you even get anything better than here? Truly magnificient service. Fully recommended to anyone out there. The quality and the smothness speaks it all.',
-      'image': 'https://i.ibb.co/tMQkrD4/testimonial.webp'
+      'image': '/assets/images/testimonial.webp'
     }
   ]
 

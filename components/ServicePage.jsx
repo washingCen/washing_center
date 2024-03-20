@@ -9,27 +9,27 @@ const ServicePage = () => {
         <div>
           <div className="h-div-sizer-max lg:pl-page-left pr-5 pl-5 sm:pr-0 sm:pl-0">
             <div className='relative h-full w-full overflow-hidden'>
-              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/SXbYRMN/about.webp' alt='' />
+              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='/assets/images/cut1.webp' alt='' />
             </div>
           </div>
           <div className="h-[8svh] sm:h-text-sizer">
-            <p className="pl-page-left text-ultra-violet pt-2 text-xl font-popins tracking-wider font-medium">Deep Washing</p>
+            <p className="pl-page-left text-ultra-violet pt-2 text-xl font-popins tracking-wider font-medium">Clean Cutting</p>
           </div>
         </div>
         <div className="lg:p-pad-top lg:pt-0 lg:pb-0">
           <div className="lg:h-div-sizer h-div-sizer-max pr-5 pl-5 sm:pr-0 sm:pl-0">
             <div className='relative h-full w-full overflow-hidden'>
-              <img className='absolute inset-0 w-full h-full object-cover object-bottom hover:scale-125 transition duration-500' src='https://i.ibb.co/2YcXR8N/cut1.webp' alt='' />
+              <img className='absolute inset-0 w-full h-full object-cover object-left hover:scale-125 transition duration-500' src='/assets/images/wash1.webp' alt='' />
             </div>
           </div>
           <div className="h-[8svh] sm:h-text-sizer">
-            <p className="text-ultra-violet pt-2 text-xl font-popins tracking-wider font-medium">Clean Cutting</p>
+            <p className="text-ultra-violet pt-2 text-xl font-popins tracking-wider font-medium">Deep Washing</p>
           </div>
         </div>    
         <div>
           <div className="h-div-sizer-max lg:pr-page-right pr-5 pl-5 sm:pr-0 sm:pl-0">
             <div className='relative h-full w-full overflow-hidden'>
-              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/Z1PBBYD/repair.webp' alt='' />
+              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='/assets/images/repair.webp' alt='' />
             </div>
           </div>
           <div className="h-[8svh] sm:h-text-sizer">
@@ -39,7 +39,7 @@ const ServicePage = () => {
         <div>
           <div className="h-div-sizer-max lg:pl-page-left pr-5 pl-5 sm:pr-0 sm:pl-0">
             <div className='relative h-full w-full overflow-hidden'>
-              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/tQMhtTB/bind1.webp' alt='' />
+              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='/assets/images/bind1.webp' alt='' />
             </div>
           </div>
           <div className="h-[8svh] sm:h-text-sizer">
@@ -49,7 +49,7 @@ const ServicePage = () => {
         <div className="lg:p-pad-top lg:pt-0 lg:pb-0">
           <div className="lg:h-div-sizer h-div-sizer-max pr-5 pl-5 sm:pr-0 sm:pl-0">
             <div className='relative h-full w-full overflow-hidden'>
-              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/jhW8Gzk/paint2.webp' alt='' />
+              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='/assets/images/paint2.webp' alt='' />
             </div>
           </div>
           <div className="h-[8svh] sm:h-text-sizer">
@@ -59,7 +59,7 @@ const ServicePage = () => {
         <div>
           <div className="h-div-sizer-max lg:pr-page-right pr-5 pl-5 sm:pr-0 sm:pl-0">
             <div className='relative h-full w-full overflow-hidden'>
-              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/grNx7Yw/stretch1.webp' alt='' />
+              <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='/assets/images/stretch1.webp' alt='' />
             </div>
           </div>
           <div className="h-[10svh] sm:h-text-sizer">

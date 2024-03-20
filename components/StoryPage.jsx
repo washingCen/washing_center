@@ -7,13 +7,13 @@ const StoryPage = () => {
       <div className='grid grid-cols-1 sm:grid-cols-2 pr-page-left pl-page-left gap-x-5'>
         <div>
           <div className='relative h-[40svh] sm:h-story-img-size overflow-hidden rounded-md'>
-            <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/hc1vrYP/story.webp' alt='' />
+            <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='/assets/images/story.webp' alt='' />
           </div>
           <div className='text-center text-ultra-violet tracking-wide text-lg font-light font-popins p-6'>Group Carpet Cleaning</div>
         </div>
         <div>
           <div className='relative h-[40svh] sm:h-story-img-size overflow-hidden rounded-md'>
-            <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='https://i.ibb.co/nCqNbz5/paint1.webp' alt='' />
+            <img className='absolute inset-0 w-full h-full object-cover hover:scale-125 transition duration-500' src='/assets/images/paint1.webp' alt='' />
           </div>
           <div className='text-center text-ultra-violet tracking-wide text-lg font-light font-popins p-6'>Quality Carpet Painting</div>
         </div>
